@@ -1,6 +1,9 @@
 import { Hero } from "@/components/ui/hero-1";
 import AboutSection from "@/components/sections/AboutSection";
 import ExpertiseSection from "@/components/sections/ExpertiseSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import ContactSection from "@/components/sections/ContactSection";
+import FooterSection from "@/components/ui/footer";
 
 const Index = () => {
   return (
@@ -18,6 +21,16 @@ const Index = () => {
       </div>
       
       <ExpertiseSection />
+      
+      <div id="testimonials">
+        <TestimonialsSection />
+      </div>
+      
+      <div id="contact">
+        <ContactSection />
+      </div>
+      
+      <FooterSection />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experienced IT professional with expertise in system administration, network management, and technical support
+            I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over five years of experience across academic institutions, government, and the private sector.
           </p>
         </div>
         
@@ -52,7 +52,7 @@ const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-foreground">Personal Traits & Approach</h3>
               <p className="text-muted-foreground">
-                Problem-solver, committed to excellence, good in teams. Interested in technology and its use in solving real-world challenges.
+                My background includes hardware and software installation, network configuration, ICT systems management, and technical support. I enjoy solving problems, working in teams, and applying technology to real-world challenges.
               </p>
             </div>
 
@@ -60,14 +60,14 @@ const AboutSection = () => {
               <h3 className="text-2xl font-semibold mb-4 text-foreground">Core Services & Skills</h3>
               <div className="grid grid-cols-1 gap-3">
                 {[
-                  "Hardware & Software Installation",
-                  "Network Configuration & Maintenance", 
-                  "Technical Support & Troubleshooting",
-                  "ICT Systems Management",
-                  "Data Management & Analysis"
+                  "Hardware & Software Installation: setting up, maintaining, troubleshooting hardware and software",
+                  "Network Configuration & Maintenance: managing networks, installing routers/switches (Cisco-certified)", 
+                  "Technical Support & Troubleshooting: responsive, effective, user-friendly help",
+                  "ICT Systems Management: comprehensive system administration",
+                  "Data Management: collecting, compiling, securing and analyzing data"
                 ].map((skill, index) => (
-                  <div key={index} className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-accent rounded-full"></div>
+                  <div key={index} className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <span className="text-muted-foreground">{skill}</span>
                   </div>
                 ))}

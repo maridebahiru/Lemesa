@@ -113,6 +113,22 @@ export default {
             transform: "scale(2)",
             opacity: "0"
           }
+        },
+        "marquee": {
+          from: {
+            transform: "translateX(0)"
+          },
+          to: {
+            transform: "translateX(calc(-100% - var(--gap)))"
+          }
+        },
+        "marquee-vertical": {
+          from: {
+            transform: "translateY(0)"
+          },
+          to: {
+            transform: "translateY(calc(-100% - var(--gap)))"
+          }
         }
       },
       animation: {
@@ -122,6 +138,8 @@ export default {
         "fade-up": "fade-up 0.3s ease-out",
         "pulse": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "ping": "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+        "marquee": "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
     },
   },
