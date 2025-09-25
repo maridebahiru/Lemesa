@@ -9,26 +9,31 @@ const AboutSection = () => {
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-br from-foreground to-foreground/60 bg-clip-text text-transparent">
             About Me
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over five years of experience in academia, government, and the private sector. My expertise includes hardware/software support, network management, ICT systems administration, and data handling. I'm a problem-solver who enjoys teamwork and applying technology to practical challenges.
-          </p>
         </div>
         
-        <div className="flex justify-center">
-          <TiltedCard
-            imageSrc={lemesaPhoto}
-            altText="Lemesa Yadeta - IT Professional"
-            captionText="Lemesa Yadeta"
-            containerHeight="400px"
-            containerWidth="400px"
-            imageHeight="400px"
-            imageWidth="400px"
-            rotateAmplitude={12}
-            scaleOnHover={1.2}
-            showMobileWarning={false}
-            showTooltip={true}
-            displayOverlayContent={false}
-          />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="flex justify-center lg:justify-end">
+            <TiltedCard
+              imageSrc={lemesaPhoto}
+              altText="Lemesa Yadeta - IT Professional"
+              captionText="Lemesa Yadeta"
+              containerHeight="400px"
+              containerWidth="400px"
+              imageHeight="400px"
+              imageWidth="400px"
+              rotateAmplitude={12}
+              scaleOnHover={1.2}
+              showMobileWarning={false}
+              showTooltip={true}
+              displayOverlayContent={false}
+            />
+          </div>
+          
+          <div className="lg:pl-8">
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over five years of experience in academia, government, and the private sector. My expertise includes hardware/software support, network management, ICT systems administration, and data handling. I'm a problem-solver who enjoys teamwork and applying technology to practical challenges.
+            </p>
+          </div>
         </div>
       </div>
     </section>
