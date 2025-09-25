@@ -1,4 +1,4 @@
-import { Hero } from "@/components/ui/hero-1";
+import { HeroGeometric } from "@/components/ui/shape-landing-hero";
 import AboutSection from "@/components/sections/AboutSection";
 import ExpertiseSection from "@/components/sections/ExpertiseSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
@@ -8,12 +8,10 @@ import FooterSection from "@/components/ui/footer";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Hero 
-        title="Build smarter tools for modern teams"
-        subtitle="Streamline your workflow and boost productivity with intuitive solutions. Security, speed, and simplicity—all in one platform."
-        eyebrow="Next-Gen Productivity"
-        ctaLabel="Get Started"
-        ctaHref="#about"
+      <HeroGeometric 
+        badge="IT Professional"
+        title1="Lemesa Yadeta"
+        title2="blending experience, technology, and creativity to drive innovation."
       />
       
       <div id="about">

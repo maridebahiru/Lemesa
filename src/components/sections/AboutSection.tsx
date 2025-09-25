@@ -12,7 +12,7 @@ const AboutSection = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="flex justify-center lg:justify-end">
+          <div className="hidden lg:flex justify-center lg:justify-end">
             <TiltedCard
               imageSrc={lemesaPhoto}
               altText="Lemesa Yadeta - IT Professional"
@@ -29,7 +29,7 @@ const AboutSection = () => {
             />
           </div>
           
-          <div className="lg:pl-8">
+          <div className="lg:pl-8 lg:col-span-1 col-span-1">
             <p className="text-xl text-muted-foreground leading-relaxed">
               I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over five years of experience in academia, government, and the private sector. My expertise includes hardware/software support, network management, ICT systems administration, and data handling. I'm a problem-solver who enjoys teamwork and applying technology to practical challenges.
             </p>
