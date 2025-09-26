@@ -34,12 +34,16 @@ const AboutSection = () => {
               I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over five years of experience in academia, government, and the private sector. My expertise includes hardware/software support, network management, ICT systems administration, and data handling. I'm a problem-solver who enjoys teamwork and applying technology to practical challenges.
             </p>
             
-            <button className="inline-flex items-center justify-center gap-2 h-11 rounded-md px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+            <a 
+              href="/Lemesa_Yadeta_CV.pdf" 
+              download="Lemesa_Yadeta_CV.pdf"
+              className="inline-flex items-center justify-center gap-2 h-11 rounded-md px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
               Download CV
-            </button>
+            </a>
           </div>
         </div>
       </div>
