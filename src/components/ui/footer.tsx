@@ -1,6 +1,6 @@
 import {
     Globe,
-    Share2,
+    Mail,
     MessageCircle,
     Linkedin,
     Send,
@@ -61,7 +61,7 @@ export default function FooterSection() {
                         rel="noopener noreferrer"
                         aria-label="Email"
                         className="text-muted-foreground hover:text-primary block">
-                        <Share2 className="size-6" />
+                        <Mail className="size-6" />
                     </a>
                     <a
                         href="tel:+251915764334"
