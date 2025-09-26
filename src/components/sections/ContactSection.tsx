@@ -29,8 +29,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Phone</p>
-                    <p className="text-muted-foreground">+251 915 764 334</p>
                     <p className="text-muted-foreground">+251 927 874 515</p>
+                    <p className="text-muted-foreground">+251 915 764 334</p>
                   </div>
                 </div>
                 
