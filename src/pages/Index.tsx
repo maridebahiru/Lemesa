@@ -11,7 +11,7 @@ const Index = () => {
       <HeroGeometric 
         badge="IT Professional"
         title1="Lemesa Yadeta"
-        title2="blending experience, technology, and creativity to drive innovation."
+        title2="IT Professional"
       />
       
       <div id="about">
