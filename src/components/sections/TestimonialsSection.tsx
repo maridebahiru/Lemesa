@@ -1,6 +1,6 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
 import { Marquee } from '@/components/ui/3d-testimonials';
+import { User, Building2, Vote } from 'lucide-react';
 
 // Professional testimonials for Lemesa Yadeta
 const testimonials = [
@@ -8,34 +8,33 @@ const testimonials = [
     name: 'Dean, School of Computing',
     username: 'Dire Dawa University',
     body: 'Lemesa has been a key member of our technical support team. His problem-solving ability, professionalism, and dedication to student learning have had a significant impact on our department.',
-    img: 'https://randomuser.me/api/portraits/men/32.jpg',
+    icon: User,
     country: '🇪🇹 Ethiopia',
   },
   {
     name: 'IT Manager',
     username: 'Moti Engineering PLC',
     body: 'We appreciated Lemesa\'s proactive approach. His troubleshooting and system support minimized delays and ensured workflow continuity.',
-    img: 'https://randomuser.me/api/portraits/men/45.jpg',
+    icon: Building2,
     country: '🇪🇹 Ethiopia',
   },
   {
     name: 'Regional IT Coordinator',
     username: 'National Election Board of Ethiopia',
     body: 'Lemesa demonstrated reliability and technical expertise under pressure. His ability to maintain system stability was crucial during the election period.',
-    img: 'https://randomuser.me/api/portraits/women/35.jpg',
+    icon: Vote,
     country: '🇪🇹 Ethiopia',
   },
 ];
 
-function TestimonialCard({ img, name, username, body, country }: (typeof testimonials)[number]) {
+function TestimonialCard({ icon: Icon, name, username, body, country }: (typeof testimonials)[number]) {
   return (
     <Card className="w-50">
       <CardContent>
         <div className="flex items-center gap-2.5">
-          <Avatar className="size-9">
-            <AvatarImage src={img} alt={name} />
-            <AvatarFallback>{name[0]}</AvatarFallback>
-          </Avatar>
+          <div className="size-9 rounded-full bg-primary/10 flex items-center justify-center">
+            <Icon className="size-4 text-primary" />
+          </div>
           <div className="flex flex-col">
             <figcaption className="text-sm font-medium text-foreground flex items-center gap-1">
               {name} <span className="text-xs">{country}</span>
