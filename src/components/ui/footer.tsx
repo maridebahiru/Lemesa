@@ -2,9 +2,10 @@ import {
     Globe,
     Share2,
     MessageCircle,
-    Link as LinkIcon,
+    Linkedin,
     Send,
-    Feather,
+    Instagram,
+    Facebook,
 } from 'lucide-react'
 
 const links = [
@@ -71,36 +72,44 @@ export default function FooterSection() {
                         <MessageCircle className="size-6" />
                     </a>
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/lemesa-yadeta-085241155?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="LinkedIn"
                         className="text-muted-foreground hover:text-primary block">
-                        <LinkIcon className="size-6" />
+                        <Linkedin className="size-6" />
                     </a>
                     <a
-                        href="#"
+                        href="https://t.me/Barch_Lemu"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Portfolio"
-                        className="text-muted-foreground hover:text-primary block">
-                        <Globe className="size-6" />
-                    </a>
-                    <a
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Resume"
+                        aria-label="Telegram"
                         className="text-muted-foreground hover:text-primary block">
                         <Send className="size-6" />
                     </a>
                     <a
-                        href="#"
+                        href="https://lemesayadeta.netlify.app"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Blog"
+                        aria-label="Website"
                         className="text-muted-foreground hover:text-primary block">
-                        <Feather className="size-6" />
+                        <Globe className="size-6" />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/lemu_barch?igsh=MTAwdGtjYmsxMnMxZA=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                        className="text-muted-foreground hover:text-primary block">
+                        <Instagram className="size-6" />
+                    </a>
+                    <a
+                        href="https://www.facebook.com/Lemu.barch"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        className="text-muted-foreground hover:text-primary block">
+                        <Facebook className="size-6" />
                     </a>
                 </div>
                 <span className="text-muted-foreground block text-center text-sm"> 

@@ -31,7 +31,7 @@ const AboutSection = () => {
           
           <div className="lg:pl-8 lg:col-span-1 col-span-1">
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over five years of experience in academia, government, and the private sector. My expertise includes hardware/software support, network management, ICT systems administration, and data handling. I'm a problem-solver who enjoys teamwork and applying technology to practical challenges.
+              I'm Lemesa Yadeta, an IT professional with a B.Sc. in Computer Science from Dire Dawa University and over six years of experience in academia, government, and the private sector. My expertise includes hardware/software support, network management, ICT systems administration, and data handling. I'm a problem-solver who enjoys teamwork and applying technology to practical challenges.
             </p>
             
             <a 
